@@ -1,6 +1,6 @@
 # Gizlilik Politikası - QREX
 
-**Son Güncelleme:** 22 Kasım 2025
+**Son Güncelleme:** 15 Ekim 2026
 
 ## Giriş
 
@@ -55,7 +55,7 @@ Uygulama, hassas bilgiler içeren QR kodları şifreleme özelliği sunar:
 
 ### Yerel Depolama
 Tüm QR kod geçmişi ve ayarlar cihazın yerel hafızasında saklanır:
-- Veriler SQLite/SharedPreferences kullanılarak cihazda tutulur
+- Veriler şifreli yerel depolama (flutter_secure_storage / EncryptedSharedPreferences) kullanılarak cihazda tutulur
 - Uygulama kaldırıldığında tüm veriler silinir
 - Veriler bulut senkronizasyonu yapılmaz
 
@@ -92,7 +92,7 @@ Bu gizlilik politikası güncellenebilir. Önemli değişiklikler uygulama için
 Gizlilik politikası hakkında sorularınız varsa:
 
 **E-posta:** tastay2@gmail.com  
-**Geliştirici:** Taştay Dijital
+**Geliştirici:** MutaLabs
 
 ## Yasal Uyumluluk
 

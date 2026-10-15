@@ -104,3 +104,111 @@ Bu uygulama aşağıdaki düzenlemelere uygundur:
 ---
 
 **QREX**, kullanıcı gizliliğini korumaya kararlıdır. Tüm veriler cihazınızda kalır ve sizin kontrolünüzdedir.
+
+# Privacy Policy - QREX
+
+**Last Updated:** October 15, 2026
+
+## Introduction
+
+QREX ("we", "the app") takes the privacy of its users seriously. This privacy policy explains what information the QREX app collects, how it uses it, and how it protects it.
+
+## Information Collected
+
+### 1. Camera Permission
+**Purpose:** QR code scanning  
+**Use:** Camera access is used solely to scan QR codes. Camera images stay on your device and are never sent to any server.  
+**Data Retention:** Camera images are not stored; QR codes are only detected momentarily.
+
+### 2. Location Permission
+**Purpose:** Adding location information to QR codes (optional feature)  
+**Use:** Location information is only added to QR code content when the user requests it. Location data is not sent to any server.  
+**Data Retention:** Location information is only stored locally inside the QR code you create.
+
+### 3. Gallery and File Access
+**Purpose:**
+- Saving QR codes to the gallery
+- Gallery access for adding logos/images
+- Scanning QR codes from gallery images
+
+**Use:** Gallery access is only used with user approval and for the stated actions.  
+**Data Retention:** Selected images are stored locally on the device and never uploaded to any server.
+
+### 4. Internet Permission
+**Purpose:**
+- Opening URLs contained in QR codes
+- Social media sharing
+- Integration with email/SMS/map apps
+
+**Use:** The internet connection is only used for user-initiated actions (e.g. opening a URL in the browser).  
+**Data Transfer:** No user data is sent to our servers. All internet traffic goes directly from the user's device to the target services.
+
+## Data Sharing and Third-Party Services
+
+QREX does not share any personal data with third parties. The app:
+
+- ✅ **Works Fully Offline:** QR code creation and scanning happen on-device
+- ✅ **No Servers:** No central servers are used
+- ✅ **No Analytics:** User behavior is not tracked
+- ✅ **No Ads:** No third-party advertising services are used
+
+## Data Security
+
+### Encrypted QR Codes
+The app offers encryption for QR codes containing sensitive information:
+- Passwords are hashed on-device before storage
+- Encrypted data is stored only on the device
+- Passwords are never sent to any server
+
+### Local Storage
+All QR code history and settings are stored in the device's local memory:
+- Data is kept on-device using encrypted local storage (flutter_secure_storage / EncryptedSharedPreferences)
+- All data is deleted when the app is uninstalled
+- No cloud synchronization is performed
+
+## Children's Privacy
+
+QREX does not knowingly collect personal information from children under 13. Parents should supervise their children's use of the app.
+
+## User Rights
+
+Users have the following rights:
+
+1. **Data Deletion:** Delete all QR history from the app settings
+2. **Permission Revocation:** Revoke permissions at any time from device settings
+3. **Data Export:** Export your QR codes as a file
+
+## Use of Permissions
+
+| Permission | Required? | Purpose |
+|------------|-----------|---------|
+| Camera | No* | QR code scanning |
+| Location | No | Adding location to QR (optional) |
+| Gallery | No | Saving QRs and adding logos |
+| Internet | No** | Opening URLs, sharing |
+
+*QR scanning does not work without camera permission, but QR creation does  
+**URLs do not open automatically without internet permission
+
+## Changes
+
+This privacy policy may be updated. Significant changes will be announced inside the app. The last update date is shown at the top of this page.
+
+## Contact
+
+If you have questions about this privacy policy:
+
+**Email:** tastay2@gmail.com  
+**Developer:** MutaLabs
+
+## Legal Compliance
+
+This app complies with the following regulations:
+- KVKK (Turkish Personal Data Protection Law)
+- GDPR (EU General Data Protection Regulation) - to the extent applicable
+- Google Play Developer Program Policies
+
+---
+
+**QREX** is committed to protecting user privacy. All data stays on your device and under your control.
+
